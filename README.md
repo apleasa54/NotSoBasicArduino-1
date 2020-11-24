@@ -34,7 +34,7 @@ The fade works by initiating a pin and then writing the code to make the fade ha
 https://create.arduino.cc/editor/apleasa54/7a0bae17-54c3-4c51-80d4-5a42eccba073
 
 ### Images
-<img src="" width="400">
+<img src="https://github.com/apleasa54/NotSoBasicArduino-1/blob/main/IMG_20201123_203808.jpg" width="400">
 
 ### Reflection
 This assignment was fairly easy once I understood what I needed to do and was pretty fun to change the variables when I got the fade working.
