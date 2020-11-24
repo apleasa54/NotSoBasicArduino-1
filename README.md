@@ -28,14 +28,15 @@ Here's how you make code look like code:
     fadeAmount = -fadeAmount;
   }
 ```
-Talk about how the fade works, here....
+The fade works by initiating a pin and then writing the code to make the fade happen including delay and fade brightness at the beginning and end of the fade itslef
 
 ### Evidence
-https://create.arduino.cc/editor/helmstk1/9e044cca-43d7-4d93-885f-e6dec5b4f769/preview
+https://create.arduino.cc/editor/apleasa54/7a0bae17-54c3-4c51-80d4-5a42eccba073
 
 ### Images
 
 ### Reflection
+This assignment was fairly easy once I understood what I needed to do and was pretty fun to change the variables when I got the fade working.
 
 ## Hello_LCD
 
