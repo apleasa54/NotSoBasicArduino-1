@@ -121,3 +121,4 @@ https://create.arduino.cc/editor/apleasa54/47fc136c-a371-4761-ba64-bd9baa5f4e1f/
 <img src="https://github.com/apleasa54/NotSoBasicArduino-1/blob/main/Screenshot%202020-12-08%20at%2017.14.35.png?raw=true" width="400">
 
 ### Reflection
+This Assignment was pretty hard for me, But I definitely learned a lot and got a better understanding of if/than statements.
