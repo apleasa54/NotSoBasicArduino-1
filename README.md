@@ -7,6 +7,7 @@
 * [LED_Fade](#LED_Fade)
 * [Hello_LCD](#Hello_LCD)
 * [Button Blink](#Button_Blink)
+
 ---
 
 ## LED_Fade
@@ -58,4 +59,64 @@ link goes here
 draw it yourself, take a picture, make a fritzing, whatever you want to EFFECTIVELY communicate how its put together.
 
 ### Reflection
+## Button Blink
 
+### Description & Code
+```C++
+int LED = 13;
+int buttonState = 0;
+int buttonPin = 7;
+int delayVar = 1000;
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin 13 as an output.
+  pinMode(LED, OUTPUT);
+  pinMode(buttonPin, INPUT);
+  Serial.begin(9600); // This turns on my Serial Monitor
+}
+
+
+
+
+
+void loop() {
+  buttonState = digitalRead(buttonPin);
+  Serial.print("button State: ");
+  Serial.print(buttonState);
+
+  if (buttonState == HIGH) {
+    blink(delayVar);
+    Serial.print("\t delayVar:");
+    Serial.println(delayVar);
+    if (delayVar > 100)
+      delayVar = delayVar - 100;
+  }
+  else
+  {
+    digitalWrite(LED, LOW);            // turn the LED off by making the voltage LOW
+    delayVar = 1000;
+    Serial.println("\t no blink!");
+
+  }
+}
+
+
+
+
+
+void blink(int x) {
+  digitalWrite(LED, HIGH);           // turn the LED on (HIGH is the voltage level)
+  delay(x);                       // wait for a second
+  digitalWrite(LED, LOW);            // turn the LED off by making the voltage LOW
+  delay(x);                       // wait for a second
+}
+
+```
+
+
+### Evidence
+https://create.arduino.cc/editor/apleasa54/47fc136c-a371-4761-ba64-bd9baa5f4e1f/preview
+### Images
+
+### Reflection
